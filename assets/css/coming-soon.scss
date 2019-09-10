@@ -1,11 +1,12 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 // Core variables and mixins
-@import "variables.scss";
-@import "mixins.scss";
+@import "variables";
+@import "mixins";
 // Global CSS
-@import "global.scss";
+@import "global";
 // Components
-@import "masthead.scss";
-@import "social.scss";
-@import "bootstrap-overrides.scss";
+@import "masthead";
+@import "social";
+@import "bootstrap-overrides";
